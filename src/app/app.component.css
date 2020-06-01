@@ -1,0 +1,61 @@
+#acounts-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #acounts-table td, #acounts-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #acounts-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #acounts-table tr:hover {background-color: #ddd;}
+  
+  #acounts-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  #svg-map {
+   width: 500px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+  }
+  .filter-checkbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
+
+   .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    
+  }
+
+  /* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
